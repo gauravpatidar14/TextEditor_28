@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/tx_file_name"
+        android:text="@string/hello_world"
+        android:textSize="18sp"
+        android:textColor="#bd9c3d"
+        android:background="#d9fde9"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:paddingLeft="4dp"
+        android:visibility="gone"
+        android:paddingRight="4dp"
+        android:id="@+id/tx_file_content"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/et_file_content"
+        android:textSize="15sp" />
+</LinearLayout>
